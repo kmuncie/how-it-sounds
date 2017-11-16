@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Ruby Text Editor</title>
+
+      {% for file in stylesheets %}
+         <link rel="stylesheet" href="{{ file }}"/>
+      {% endfor %}
+
+      <link rel="stylesheet" href="/css/how-it-sounds.css">
+   </head>
+
+   <body class="yesJS">
+      <div class="bootstrap">
+         {{ partial }}
+      </div>
+      <script src="/js/how-it-sounds.min.js"></script>
+   </body>
+</html>
