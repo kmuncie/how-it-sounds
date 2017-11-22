@@ -15,6 +15,8 @@ module.exports = {
    },
 
    data: function() {
-      return { field: { primaryAnnotation: 'Test', base: 'This' } };
+      return {
+         field: { primaryAnnotation: 'Test', sourceText: 'This' }
+      };
    },
 };
