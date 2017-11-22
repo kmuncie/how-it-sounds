@@ -1,7 +1,8 @@
 'use strict';
 
 var template = require('./app.html'),
-    AnnotatedTextField = require('./components/annotated-text-field');
+    AnnotatedTextField = require('./components/annotated-text-field'),
+    MyButton = require('./components/my-button');
 
 module.exports = {
    el: '#app',
@@ -12,6 +13,7 @@ module.exports = {
 
    components: {
       AnnotatedTextField: AnnotatedTextField,
+      MyButton: MyButton,
    },
 
    data: function() {
