@@ -20,7 +20,7 @@ module.exports = {
 
    data: function() {
       return {
-         field: { primaryAnnotation: 'Test', sourceText: 'This' }
+         field: { primaryAnnotation: 'Primary', sourceText: 'Source', secondaryAnnotation: 'Secondary' }
       };
    },
 };

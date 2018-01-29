@@ -1,5 +1,5 @@
-<span class="annotatedTextField">
-   <span>{{ field.sourceText }}</span>
-   <input type="text" v-model="field.primaryAnnotation" placeholder="Primary annotation">
-   <input type="text" v-if="field.secondaryAnnotation" v-model="field.secondaryAnnotation" placeholder="Secondary annotation">
+<span class="stackedText">
+   <input class="translatedText" type="text" v-if="field.secondaryAnnotation" v-model="field.secondaryAnnotation" placeholder="Secondary annotation">
+   <span class="vernacularText">{{ field.sourceText }}</span>
+   <input class="phoneticText" type="text" v-model="field.primaryAnnotation" placeholder="Primary annotation">
 </span>

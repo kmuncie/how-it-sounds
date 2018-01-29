@@ -1,0 +1,60 @@
+.stackedTextContainer {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px dotted #ccc;
+  &:first-of-type {
+    border: none;
+  }
+}
+
+.stackedText {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+  > span {
+    min-height: 1rem;
+  }
+}
+
+.translatedText {
+  font-size: .5rem;
+  color: #ccc;
+}
+
+.vernacularText {
+  line-height: 1.5;
+}
+
+.phoneticText {
+  color: firebrick;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px dotted #ccc;
+  &:first-of-type {
+    border: none;
+  }
+}
+
+.stackedText {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+  > span {
+    min-height: 1rem;
+  }
+}
+
+.translatedText {
+  font-size: .5rem;
+  color: #ccc;
+}
+
+.vernacularText {
+  line-height: 1.5;
+}
+
+.phoneticText {
+  color: firebrick;
+}
